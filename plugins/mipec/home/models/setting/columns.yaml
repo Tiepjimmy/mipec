@@ -1,0 +1,64 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    address:
+        label: 'Địa chỉ'
+        type: text
+        searchable: true
+        sortable: true
+    numberphone:
+        label: 'Số điện thoại'
+        type: number
+        searchable: true
+        sortable: true
+    facebook:
+        label: Facebook
+        type: text
+        searchable: true
+        sortable: true
+    youtube:
+        label: Youtuve
+        type: text
+        searchable: true
+        sortable: true
+    copyright_footer:
+        label: Copyright
+        type: text
+        searchable: true
+        sortable: true
+    image:
+        label: Ảnh
+        type: partial
+        path: ~/plugins/mipec/home/models/setting/_image.htm
+    phone:
+        label: 'Số điện thoại  liên hệ'
+        type: number
+        searchable: true
+        sortable: true
+    email:
+        label: Email
+        type: text
+        searchable: true
+        sortable: true
+    title_seo:
+        label: 'Từ khóa seo'
+        type: text
+        searchable: true
+        sortable: true
+    description_seo:
+        label: 'Mô tả seo'
+        type: text
+        searchable: true
+        sortable: true
+    meta_keyword:
+        label: 'Từ khóa seo'
+        type: text
+        searchable: true
+        sortable: true
+    image_share:
+        label: 'Ảnh seo'
+        type: partial
+        path: ~/plugins/mipec/home/models/setting/_image.htm

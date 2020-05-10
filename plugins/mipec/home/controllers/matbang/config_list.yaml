@@ -1,0 +1,12 @@
+list: $/mipec/home/models/matbang/columns.yaml
+modelClass: Mipec\Home\Models\Matbang
+title: Matbang
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'mipec/home/matbang/update/:id'

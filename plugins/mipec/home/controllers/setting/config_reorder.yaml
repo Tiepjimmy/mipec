@@ -1,0 +1,4 @@
+title: Setting
+modelClass: Mipec\Home\Models\Setting
+toolbar:
+    buttons: reorder_toolbar

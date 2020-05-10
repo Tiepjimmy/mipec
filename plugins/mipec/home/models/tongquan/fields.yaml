@@ -1,0 +1,19 @@
+fields:
+    title:
+        label: 'Tiêu đề'
+        span: auto
+        type: text
+    description:
+        label: 'Mô tả'
+        span: auto
+        type: text
+    content:
+        label: 'Nội dung'
+        size: ''
+        span: full
+        type: richeditor
+    image:
+        label: Ảnh
+        mode: image
+        span: auto
+        type: mediafinder

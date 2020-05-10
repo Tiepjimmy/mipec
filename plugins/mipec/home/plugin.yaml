@@ -1,0 +1,48 @@
+plugin:
+    name: 'mipec.home::lang.plugin.name'
+    description: 'mipec.home::lang.plugin.description'
+    author: doantiep
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Trang chủ'
+        url: mipec/home/home
+        icon: icon-home
+        sideMenu:
+            side-menu-item:
+                label: 'Chuỗi tiện ích'
+                url: mipec/home/chuoitienich
+                icon: icon-align-justify
+            side-menu-item2:
+                label: 'Tổng quan'
+                url: mipec/home/tongquan
+                icon: icon-align-right
+            side-menu-item3:
+                label: 'Vị trí'
+                url: mipec/home/vitri
+                icon: icon-map-marker
+            side-menu-item4:
+                label: 'Tiện ích'
+                url: mipec/home/tienich
+                icon: icon-plane
+            side-menu-item5:
+                label: 'Mặt bằng'
+                url: mipec/home/matbang
+                icon: icon-sitemap
+            side-menu-item6:
+                label: Giá
+                url: mipec/home/gia
+                icon: icon-bank
+            side-menu-item7:
+                label: 'Liên hệ'
+                url: mipec/home/lienhe
+                icon: icon-mobile-phone
+            side-menu-item8:
+                label: Logo
+                url: mipec/home/logo
+                icon: icon-adjust
+            side-menu-item9:
+                label: Setting
+                url: mipec/home/setting
+                icon: icon-wrench

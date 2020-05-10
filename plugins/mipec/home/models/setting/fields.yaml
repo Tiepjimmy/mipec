@@ -1,0 +1,51 @@
+fields:
+    address:
+        label: 'Địa chỉ'
+        span: auto
+        type: text
+    phone:
+        label: 'Số điện thoại liên hệ'
+        span: auto
+        type: text
+    numberphone:
+        label: 'Số điện thoại hiển thị'
+        span: auto
+        type: text
+    facebook:
+        label: Facebook
+        span: auto
+        type: text
+    email:
+        label: Email
+        span: auto
+        type: text
+    youtube:
+        label: Youtube
+        span: auto
+        type: text
+    image:
+        label: Ảnh
+        mode: image
+        span: auto
+        type: mediafinder
+    image_share:
+        label: 'Ảnh seo'
+        span: auto
+        type: text
+    meta_keyword:
+        label: 'Từ khóa seo'
+        span: auto
+        type: text
+    description_seo:
+        label: 'Mô tả seo'
+        span: auto
+        type: text
+    title_seo:
+        label: 'Tiêu đề seo'
+        span: auto
+        type: text
+    copyright_footer:
+        label: Copyright
+        size: ''
+        span: full
+        type: richeditor

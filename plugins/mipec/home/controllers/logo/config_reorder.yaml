@@ -1,0 +1,4 @@
+title: Logo
+modelClass: Mipec\Home\Models\Logo
+toolbar:
+    buttons: reorder_toolbar

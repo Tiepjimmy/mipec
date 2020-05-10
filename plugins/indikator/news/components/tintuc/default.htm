@@ -1,0 +1,101 @@
+{% set listpost = __SELF__.listpost %}
+<section class="section mh-no-padding-bottom mh-page-title" id="section_1098246791">
+	<div class="bg section-bg fill bg-fill  " >
+
+		
+		
+		
+
+	</div><!-- .section-bg -->
+
+	<div class="section-content relative">
+		
+
+		<div class="row row-collapse align-bottom"  id="row-793100288">
+
+			<style scope="scope">
+
+			</style>
+		</div>
+
+	</div><!-- .section-content -->
+
+	
+	<style scope="scope">
+
+		#section_1098246791 {
+			padding-top: 220px;
+			padding-bottom: 220px;
+			min-height: 280px;
+		}
+	</style>
+</section>
+
+<main id="main" class="">
+
+	<div id="content" class="blog-wrapper blog-archive page-wrapper">
+		<header class="archive-page-header">
+			<div class="row">
+				<div class="large-12 text-center col">
+					<h1 class="page-title is-large uppercase">
+						<span>Tin tức</span>	</h1>
+					</div>
+				</div>
+			</header><!-- .page-header -->
+
+			<div class="row align-center">
+				<div class="large-10 col">
+					
+					
+
+
+					
+					<div id="row-106637936" class="row large-columns-2 medium-columns- small-columns-1 row-masonry" data-packery-options='{"itemSelector": ".col", "gutter": 0, "presentageWidth" : true}'>
+						{% for allpost in listpost %} 
+						<div class="col post-item" >
+							<div class="col-inner">
+								<a href="{{ 'chi-tiet-tin-tuc' | page({slug:allpost.slug}) }}" class="plain">
+									<div class="box box-text-bottom box-blog-post has-hover">
+										<div class="box-image" >
+											<div class="image-cover" style="padding-top:56%;">
+												<img width="700" height="376" src="{{allpost.image | media}}" />  							  							  						</div>
+											</div><!-- .box-image -->
+											<div class="box-text text-left" >
+												<div class="box-text-inner blog-post-inner">
+
+													
+													<h5 class="post-title is-large ">{{ allpost.title | raw}}</h5>
+													<div class="is-divider"></div>
+													<p class="from_the_blog_excerpt ">{{ html_limit(allpost.introductory,100)}}					</p>
+													
+													
+													<p href="{{ 'chi-tiet-tin-tuc' | page({slug:allpost.slug}) }}" class="mh-no-margin mh-button-readmore button secondary is-link"><span>Xem chi tiết</span></p>
+													
+												</div><!-- .box-text-inner -->
+											</div><!-- .box-text -->
+											<div class="badge absolute top post-date badge-square">
+												<div class="badge-inner">
+													<span class="post-date-day">{{ allpost.published_at|date('d') }}</span><br>
+													<span class="post-date-month is-xsmall">Th{{ allpost.published_at|date('m') }}</span>
+												</div>
+											</div>
+										</div><!-- .box -->
+									</a><!-- .link -->
+								</div><!-- .col-inner -->
+							</div><!-- .col -->
+							{%endfor%}
+							
+						</div>
+						<ul class="page-numbers nav-pagination links text-center">
+							{{ listpost.render|raw }}
+						</ul>
+						
+						
+					</div> <!-- .large-9 -->
+
+				</div><!-- .row -->
+
+			</div><!-- .page-wrapper .blog-wrapper -->
+
+
+</main><!-- #main -->

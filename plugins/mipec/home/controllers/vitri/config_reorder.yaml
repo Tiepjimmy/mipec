@@ -1,0 +1,4 @@
+title: Vitri
+modelClass: Mipec\Home\Models\Vitri
+toolbar:
+    buttons: reorder_toolbar

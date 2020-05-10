@@ -1,0 +1,4 @@
+title: Gia
+modelClass: Mipec\Home\Models\Gia
+toolbar:
+    buttons: reorder_toolbar

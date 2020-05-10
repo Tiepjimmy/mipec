@@ -1,0 +1,10 @@
+name: Logo
+form: $/mipec/home/models/logo/fields.yaml
+modelClass: Mipec\Home\Models\Logo
+defaultRedirect: mipec/home/logo
+create:
+    redirect: 'mipec/home/logo/update/:id'
+    redirectClose: mipec/home/logo
+update:
+    redirect: mipec/home/logo
+    redirectClose: mipec/home/logo

@@ -1,0 +1,29 @@
+fields:
+    title:
+        label: 'Tiêu Đề'
+        span: auto
+        type: text
+    description:
+        label: 'Mô tả'
+        span: auto
+        type: text
+    slide1:
+        label: 'Slide 1'
+        mode: image
+        span: auto
+        type: mediafinder
+    slide2:
+        label: 'Slide 2'
+        mode: image
+        span: auto
+        type: mediafinder
+    slide3:
+        label: 'Slide 3'
+        mode: image
+        span: auto
+        type: mediafinder
+    content:
+        label: 'Nội dung'
+        size: ''
+        span: auto
+        type: richeditor

@@ -1,0 +1,4 @@
+title: Home
+modelClass: Mipec\Home\Models\Home
+toolbar:
+    buttons: reorder_toolbar

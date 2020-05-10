@@ -1,0 +1,9 @@
+fields:
+    name:
+        label: 'Họ tên'
+        span: auto
+        type: text
+    phone:
+        label: 'Số điện thoại'
+        span: auto
+        type: text

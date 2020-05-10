@@ -1,0 +1,4 @@
+title: Chuoitienich
+modelClass: Mipec\Home\Models\Chuoitienich
+toolbar:
+    buttons: reorder_toolbar

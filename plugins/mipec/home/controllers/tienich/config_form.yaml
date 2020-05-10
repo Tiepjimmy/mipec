@@ -1,0 +1,10 @@
+name: Tienich
+form: $/mipec/home/models/tienich/fields.yaml
+modelClass: Mipec\Home\Models\Tienich
+defaultRedirect: mipec/home/tienich
+create:
+    redirect: 'mipec/home/tienich/update/:id'
+    redirectClose: mipec/home/tienich
+update:
+    redirect: mipec/home/tienich
+    redirectClose: mipec/home/tienich

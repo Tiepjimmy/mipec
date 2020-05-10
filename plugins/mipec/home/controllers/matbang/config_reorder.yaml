@@ -1,0 +1,4 @@
+title: Matbang
+modelClass: Mipec\Home\Models\Matbang
+toolbar:
+    buttons: reorder_toolbar

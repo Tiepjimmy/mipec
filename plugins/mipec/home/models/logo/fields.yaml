@@ -1,0 +1,10 @@
+fields:
+    name:
+        label: 'Tên logo'
+        span: full
+        type: text
+    image:
+        label: Ảnh
+        mode: image
+        span: auto
+        type: mediafinder

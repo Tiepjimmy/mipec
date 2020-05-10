@@ -1,0 +1,30 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    name:
+        label: 'Họ tên'
+        type: text
+        searchable: true
+        sortable: true
+    phone:
+        label: 'Số điện thoại'
+        type: number
+        searchable: true
+        sortable: true
+    email:
+        label: Email
+        type: text
+        searchable: true
+        sortable: true
+    content:
+        label: 'Nội dung'
+        type: text
+        sortable: false
+    created_at:
+        label: 'Ngày tạo'
+        type: text
+        searchable: true
+        sortable: true

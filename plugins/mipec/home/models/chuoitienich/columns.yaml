@@ -1,0 +1,31 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    title:
+        label: 'Tiêu đề'
+        type: text
+        searchable: true
+        sortable: true
+    description:
+        label: 'Mô Tả'
+        type: text
+        searchable: true
+        sortable: true
+    content:
+        label: 'Nội dung'
+        type: text
+    slide1:
+        label: slide1
+        type: partial
+        path: ~/plugins/mipec/home/models/chuoitienich/_image.htm
+    slide2:
+        label: slide2
+        type: partial
+        path: ~/plugins/mipec/home/models/chuoitienich/_image.htm
+    slide3:
+        label: slide3
+        type: partial
+        path: ~/plugins/mipec/home/models/chuoitienich/_image.htm

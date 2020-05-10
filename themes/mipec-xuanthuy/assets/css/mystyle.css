@@ -1,0 +1,186 @@
+.success-form{
+  color: #ffffff;
+}
+.mh-col-utilities ul.mh-list-location p{
+  color: #c99232 !important;
+}
+
+
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+  padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+  top: 0;
+  bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+  padding: 0;
+}
+
+
+/* 
+
+for zoom animation 
+uncomment this part if you haven't added this code anywhere else
+
+*/
+
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: all 0.3s ease-out; 
+  -moz-transition: all 0.3s ease-out; 
+  -o-transition: all 0.3s ease-out; 
+  transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+    opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+    opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+
+
+
+ #wait-load{
+      display:none;
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      background-color: rgba(0, 0, 0, .5);
+      z-index: 999999;
+    }
+
+
+.chatzalo{
+  border: none !important;
+  background: none !important;
+}
+
+
+.error{
+  color: red !important;
+}
+ul.links{
+	    font-size: 1.85em !important;
+}
+.tel--btn {
+  position: fixed;
+  z-index: 5;
+  left: 20px;
+  bottom: 24px;
+  width: 50px;
+  height: 50px;
+  background: #ffaf0e;
+  border-radius: 100%;
+  border: solid 5px #ffaf0e;
+  -webkit-animation: play 2s ease infinite;
+          animation: play 2s ease infinite;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  padding: 0;
+}
+
+.tel--btn a {
+  position: relative;
+}
+.phonenumber{
+	color: yellow;
+  font-size: 32px !important;
+}
+.tel--btn a i {
+  position: relative;
+  -webkit-animation: play_cal 2s ease infinite;
+          animation: play_cal 2s ease infinite;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  color: white !important;
+  font-size: 26px;
+  top: 20%;
+  left: 20%;
+}
+
+
+@keyframes play_cal {
+  0% {
+    -webkit-transform: rotate(35deg);
+            transform: rotate(35deg);
+  }
+  8% {
+    -webkit-transform: rotate(-33deg);
+            transform: rotate(-33deg);
+  }
+  15% {
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
+  }
+  25% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  35% {
+    -webkit-transform:  rotate(10deg);
+            transform: rotate(10deg);
+  }
+  45% {
+    -webkit-transform:  rotate(5deg);
+            transform: rotate(5deg);
+  }
+  55% {
+    -webkit-transform:  rotate(0deg);
+            transform:  rotate(0deg);
+  }
+}
+
+@-webkit-keyframes play {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  15% {
+    -webkit-box-shadow: 0 0 0 2px rgba(255, 175, 14, 0.4);
+            box-shadow: 0 0 0 2px rgba(255, 175, 14, 0.4);
+  }
+  25% {
+    -webkit-box-shadow: 0 0 0 4px rgba(255, 175, 14, 0.4), 0 0 0 10px rgba(255, 175, 14, 0.2);
+            box-shadow: 0 0 0 4px rgba(255, 175, 14, 0.4), 0 0 0 10px rgba(255, 175, 14, 0.2);
+  }
+  25% {
+    -webkit-box-shadow: 0 0 0 7px rgba(255, 175, 14, 0.4), 0 0 0 15px rgba(255, 175, 14, 0.2);
+            box-shadow: 0 0 0 7px rgba(255, 175, 14, 0.4), 0 0 0 15px rgba(255, 175, 14, 0.2);
+  }
+}
+
+@keyframes play {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  15% {
+    -webkit-box-shadow: 0 0 0 2px rgba(255, 175, 14, 0.4);
+            box-shadow: 0 0 0 2px rgba(255, 175, 14, 0.4);
+  }
+  25% {
+    -webkit-box-shadow: 0 0 0 4px rgba(255, 175, 14, 0.4), 0 0 0 10px rgba(255, 175, 14, 0.2);
+            box-shadow: 0 0 0 4px rgba(255, 175, 14, 0.4), 0 0 0 10px rgba(255, 175, 14, 0.2);
+  }
+  25% {
+    -webkit-box-shadow: 0 0 0 7px rgba(255, 175, 14, 0.4), 0 0 0 15px rgba(255, 175, 14, 0.2);
+            box-shadow: 0 0 0 7px rgba(255, 175, 14, 0.4), 0 0 0 15px rgba(255, 175, 14, 0.2);
+  }
+}
+

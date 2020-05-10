@@ -1,0 +1,10 @@
+name: Matbang
+form: $/mipec/home/models/matbang/fields.yaml
+modelClass: Mipec\Home\Models\Matbang
+defaultRedirect: mipec/home/matbang
+create:
+    redirect: 'mipec/home/matbang/update/:id'
+    redirectClose: mipec/home/matbang
+update:
+    redirect: mipec/home/matbang
+    redirectClose: mipec/home/matbang

@@ -1,0 +1,10 @@
+name: Chuoitienich
+form: $/mipec/home/models/chuoitienich/fields.yaml
+modelClass: Mipec\Home\Models\Chuoitienich
+defaultRedirect: mipec/home/chuoitienich
+create:
+    redirect: 'mipec/home/chuoitienich/update/:id'
+    redirectClose: mipec/home/chuoitienich
+update:
+    redirect: mipec/home/chuoitienich
+    redirectClose: mipec/home/chuoitienich

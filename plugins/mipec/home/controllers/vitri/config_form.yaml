@@ -1,0 +1,10 @@
+name: Vitri
+form: $/mipec/home/models/vitri/fields.yaml
+modelClass: Mipec\Home\Models\Vitri
+defaultRedirect: mipec/home/vitri
+create:
+    redirect: 'mipec/home/vitri/update/:id'
+    redirectClose: mipec/home/vitri
+update:
+    redirect: mipec/home/vitri
+    redirectClose: mipec/home/vitri

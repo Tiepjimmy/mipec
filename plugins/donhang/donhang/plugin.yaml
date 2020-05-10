@@ -1,0 +1,11 @@
+plugin:
+    name: Donhang
+    description: 'donhang.donhang::lang.plugin.description'
+    author: Donhang
+    icon: oc-icon-cart-arrow-down
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Đơn Hàng'
+        url: donhang/donhang/donhang
+        icon: icon-cart-arrow-down

@@ -1,0 +1,62 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table mipec_home_'
+    - builder_table_create_mipec_home_.php
+1.0.3:
+    - 'Created table mipec_home_vitri'
+    - builder_table_create_mipec_home_vitri.php
+1.0.4:
+    - 'Created table mipec_home_matbang'
+    - builder_table_create_mipec_home_matbang.php
+1.0.5:
+    - 'Created table mipec_home_lienhe'
+    - builder_table_create_mipec_home_lienhe.php
+1.0.6:
+    - 'Created table mipec_home_chuoitienich'
+    - builder_table_create_mipec_home_chuoitienich.php
+1.0.7:
+    - 'Created table mipec_home_tongquan'
+    - builder_table_create_mipec_home_tongquan.php
+1.0.8:
+    - 'Created table mipec_home_gia'
+    - builder_table_create_mipec_home_gia.php
+1.0.9:
+    - 'Created table mipec_home_tienich'
+    - builder_table_create_mipec_home_tienich.php
+1.0.10:
+    - 'Created table mipec_home_logo'
+    - builder_table_create_mipec_home_logo.php
+1.0.11:
+    - 'Updated table mipec_home_logo'
+    - builder_table_update_mipec_home_logo.php
+1.0.12:
+    - 'Created table mipec_home_headerbottom'
+    - builder_table_create_mipec_home_headerbottom.php
+1.0.13:
+    - 'Updated table mipec_home_logo'
+    - builder_table_update_mipec_home_logo_2.php
+1.0.14:
+    - 'Updated table mipec_home_logo'
+    - builder_table_update_mipec_home_logo_3.php
+1.0.15:
+    - 'Created table mipec_home_setting'
+    - builder_table_create_mipec_home_setting.php
+1.0.16:
+    - 'Updated table mipec_home_setting'
+    - builder_table_update_mipec_home_setting.php
+1.0.17:
+    - 'Updated table mipec_home_setting'
+    - builder_table_update_mipec_home_setting_2.php
+1.0.18:
+    - 'Updated table mipec_home_setting'
+    - builder_table_update_mipec_home_setting_3.php
+1.0.19:
+    - 'Updated table mipec_home_setting'
+    - builder_table_update_mipec_home_setting_4.php
+1.0.20:
+    - 'Updated table mipec_home_setting'
+    - builder_table_update_mipec_home_setting_5.php
+1.0.21:
+    - 'Updated table mipec_home_setting'
+    - builder_table_update_mipec_home_setting_6.php

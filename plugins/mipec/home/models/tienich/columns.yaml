@@ -1,0 +1,23 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    title:
+        label: 'Tiêu đề'
+        type: text
+        searchable: true
+        sortable: true
+    description:
+        label: 'Mô tả'
+        type: text
+        searchable: true
+        sortable: true
+    content:
+        label: 'Nội dung'
+        type: text
+    image:
+        label: Ảnh
+        type: partial
+        path: ~/plugins/mipec/home/models/tienich/_image.htm

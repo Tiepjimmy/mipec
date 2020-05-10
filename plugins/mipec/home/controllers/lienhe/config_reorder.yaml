@@ -1,0 +1,4 @@
+title: Lienhe
+modelClass: Mipec\Home\Models\Lienhe
+toolbar:
+    buttons: reorder_toolbar

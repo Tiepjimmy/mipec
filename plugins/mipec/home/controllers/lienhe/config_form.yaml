@@ -1,0 +1,10 @@
+name: Lienhe
+form: $/mipec/home/models/lienhe/fields.yaml
+modelClass: Mipec\Home\Models\Lienhe
+defaultRedirect: mipec/home/lienhe
+create:
+    redirect: 'mipec/home/lienhe/update/:id'
+    redirectClose: mipec/home/lienhe
+update:
+    redirect: mipec/home/lienhe
+    redirectClose: mipec/home/lienhe

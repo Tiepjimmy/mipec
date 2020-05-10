@@ -1,0 +1,10 @@
+name: Setting
+form: $/mipec/home/models/setting/fields.yaml
+modelClass: Mipec\Home\Models\Setting
+defaultRedirect: mipec/home/setting
+create:
+    redirect: 'mipec/home/setting/update/:id'
+    redirectClose: mipec/home/setting
+update:
+    redirect: mipec/home/setting
+    redirectClose: mipec/home/setting

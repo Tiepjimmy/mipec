@@ -1,0 +1,50 @@
+	<div class="header-wrapper">
+				<div id="masthead" class="header-main hide-for-sticky">
+					<div class="header-inner flex-row container logo-left" role="navigation">
+
+						<!-- Logo -->
+						<div id="logo" class="flex-col logo">
+							<!-- Header logo -->
+							<a href="{{ 'homepage'  | page}}" title="The Matrix One" rel="home">
+								<img width="116" height="113" src="{{ logo[0].image | media}}" class="header_logo header-logo" alt="{{ html_strip(logo[0].name) |raw}}"/><img  width="116" height="113" src="{{ logo[0].image | media}}" class="header-logo-dark" alt="{{logo[0].name}}"/></a>
+							</div>
+
+							<!-- Mobile Left Elements -->
+							<div class="flex-col show-for-medium flex-left">
+								<ul class="mobile-nav nav nav-left ">
+								</ul>
+							</div>
+
+							<!-- Left Elements -->
+							<div class="flex-col hide-for-medium flex-left
+							flex-grow">
+							<ul class="header-nav header-nav-main nav nav-left  nav-uppercase" >
+							</ul>
+						</div>
+
+						<!-- Right Elements -->
+						<div class="flex-col hide-for-medium flex-right">
+							<ul class="header-nav header-nav-main nav nav-right  nav-uppercase">
+								<li class="nav-icon has-icon">
+									<div class="header-button">		<a href="#" data-open="#main-menu" data-pos="right" data-bg="main-menu-overlay" data-color="dark" class="icon primary button round is-small" aria-controls="main-menu" aria-expanded="false">
+
+										<i class="zmdi zmdi-menu" ></i>
+										<span class="menu-title uppercase hide-for-small">Menu</span>		</a>
+									</div> </li>            </ul>
+								</div>
+
+								<!-- Mobile Right Elements -->
+								<div class="flex-col show-for-medium flex-right">
+									<ul class="mobile-nav nav nav-right ">
+										<li class="nav-icon has-icon">
+											<div class="header-button">		<a href="#" data-open="#main-menu" data-pos="right" data-bg="main-menu-overlay" data-color="dark" class="icon primary button round is-small" aria-controls="main-menu" aria-expanded="false">
+
+												<i class="zmdi zmdi-menu" ></i>
+												<span class="menu-title uppercase hide-for-small">Menu</span>		</a>
+											</div> </li>            </ul>
+										</div>
+
+									</div><!-- .header-inner -->
+
+								</div><!-- .header-main -->
+								<div class="header-bg-container fill"><div class="header-bg-image fill"></div><div class="header-bg-color fill"></div></div><!-- .header-bg-container -->   </div><!-- header-wrapper-->

@@ -1,0 +1,12 @@
+list: $/mipec/home/models/home/columns.yaml
+modelClass: Mipec\Home\Models\Home
+title: Home
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'mipec/home/home/update/:id'

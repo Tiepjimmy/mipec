@@ -1,0 +1,10 @@
+name: Tongquan
+form: $/mipec/home/models/tongquan/fields.yaml
+modelClass: Mipec\Home\Models\Tongquan
+defaultRedirect: mipec/home/tongquan
+create:
+    redirect: 'mipec/home/tongquan/update/:id'
+    redirectClose: mipec/home/tongquan
+update:
+    redirect: mipec/home/tongquan
+    redirectClose: mipec/home/tongquan

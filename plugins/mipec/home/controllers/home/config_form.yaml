@@ -1,0 +1,10 @@
+name: Home
+form: $/mipec/home/models/home/fields.yaml
+modelClass: Mipec\Home\Models\Home
+defaultRedirect: mipec/home/home
+create:
+    redirect: 'mipec/home/home/update/:id'
+    redirectClose: mipec/home/home
+update:
+    redirect: mipec/home/home
+    redirectClose: mipec/home/home

@@ -1,0 +1,4 @@
+title: Tongquan
+modelClass: Mipec\Home\Models\Tongquan
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,10 @@
+name: Donhang
+form: $/donhang/donhang/models/donhang/fields.yaml
+modelClass: donhang\Donhang\Models\Donhang
+defaultRedirect: donhang/donhang/donhang
+create:
+    redirect: 'donhang/donhang/donhang/update/:id'
+    redirectClose: donhang/donhang/donhang
+update:
+    redirect: donhang/donhang/donhang
+    redirectClose: donhang/donhang/donhang

@@ -1,0 +1,15 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    name:
+        label: 'Tên Logo'
+        type: text
+        searchable: true
+        sortable: true
+    image:
+        label: Ảnh
+        type: partial
+        path: ~/plugins/mipec/home/models/logo/_image.htm

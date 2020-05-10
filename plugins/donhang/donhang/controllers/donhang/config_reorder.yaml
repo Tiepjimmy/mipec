@@ -1,0 +1,4 @@
+title: Donhang
+modelClass: donhang\Donhang\Models\Donhang
+toolbar:
+    buttons: reorder_toolbar

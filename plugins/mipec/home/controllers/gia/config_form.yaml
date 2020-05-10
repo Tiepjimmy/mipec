@@ -1,0 +1,10 @@
+name: Gia
+form: $/mipec/home/models/gia/fields.yaml
+modelClass: Mipec\Home\Models\Gia
+defaultRedirect: mipec/home/gia
+create:
+    redirect: 'mipec/home/gia/update/:id'
+    redirectClose: mipec/home/gia
+update:
+    redirect: mipec/home/gia
+    redirectClose: mipec/home/gia

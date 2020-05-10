@@ -1,0 +1,4 @@
+title: Tienich
+modelClass: Mipec\Home\Models\Tienich
+toolbar:
+    buttons: reorder_toolbar
